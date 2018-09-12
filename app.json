@@ -15,6 +15,7 @@
   "env": {
     "NODE_ENV": {
       "value": "PRODUCTION"
+      
     }
   },
   "addons": [
