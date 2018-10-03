@@ -30,4 +30,3 @@ USER $user
 # Neither of the following work, because the mongo container isn't yet running.
 #RUN node artifacts/db-reset.js
 #ONBUILD RUN node artifacts/db-reset.js
-
