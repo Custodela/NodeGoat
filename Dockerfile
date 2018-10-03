@@ -5,7 +5,6 @@ ENV workdir /usr/src/app/
 
 # Home is required for npm install. System account with no ability to login to shell
 RUN useradd --create-home --system --shell /bin/false $user
-
 RUN mkdir --parents $workdir
 WORKDIR $workdir
 
