@@ -8,6 +8,7 @@ RUN useradd --create-home --system --shell /bin/false $user
 
 RUN mkdir --parents $workdir
 WORKDIR $workdir
+
 COPY package.json $workdir
 
 # chown is required by npm install as a non-root user.
