@@ -13,4 +13,3 @@ services:
     user: mongodb
     expose:
       - "27017"
-
