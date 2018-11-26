@@ -2,6 +2,7 @@ FROM node:4.4
 
 ENV user nodegoat_docker
 
+
 ENV workdir /usr/src/app/
 
 # Home is required for npm install. System account with no ability to login to shell
