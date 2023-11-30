@@ -28,6 +28,7 @@ This would allow you to fix vulnerabilities in your own forked version, and depl
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+
 This Heroku instance uses Free ($0/month) node server and MongoLab add-on.
 
 ### OPTION 2 - Run NodeGoat on your machine
